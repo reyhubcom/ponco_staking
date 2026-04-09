@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Ponco.xyz
+  site: 'https://ponco.xyz'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Ponco.xyz
+    template: 'Ponco.xyz'
+  description: "Crypto staking is the process of locking up cryptocurrencies to support a proof-of-stake blockchain network, validating transactions to earn rewards, often yielding 4%–10%+ annually. It is a passive income method that avoids mining hardware costs but involves risks like price volatility, lock-up periods, and potential slashing (penalty) for validator failure."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Ponco.xyz
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -69,4 +69,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'system' # Values: "system" | "dark" | "dark" | "dark:only" | "dark:only"
