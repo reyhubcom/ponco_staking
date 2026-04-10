@@ -38,21 +38,7 @@ const metadata = {
       showToggleTheme
     />
   </Fragment>
-<div slot="actions" class="flex max-w-sm gap-4">
-      <Button variant="link" href="https://kilan.xyz">
-        <Image src={appStoreImg} alt="App Store Image" width={50} />
-      </Button>
 
-      <Button variant="link" href={googlePlayDownloadLink}>
-        <Image src={googlePlayImg} alt="Google Play Image" width={50} />
-      </Button>
-      <Button variant="link" href={googlePlayDownloadLink}>
-        <Image src={googlePlayImg} alt="Google Play Image" width={50} />
-      </Button>
-      <Button variant="link" href={googlePlayDownloadLink}>
-        <Image src={googlePlayImg} alt="Google Play Image" width={50} />
-      </Button>
-    </div>
   <!-- Hero2 Widget ******************* -->
 
   <Hero
