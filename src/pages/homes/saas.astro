@@ -283,14 +283,17 @@ const metadata = {
     title="Flexible pricing plans"
     prices={[
       {
-        title: 'BTC',
-        subtitle: 'Access to core features and a wide range of templates',
-         
+        title: 'pro',
+        subtitle: 'Premium templates and advanced customization',
+        price: 15,
+        period: '/ Month',
         callToAction: {
           target: '_blank',
-          text: 'Stake BTC',
+          text: 'Upgrade to Pro',
           href: '#',
         },
+        hasRibbon: true,
+        ribbonTitle: 'Staking',
       },
       {
         title: 'pro',
@@ -303,7 +306,7 @@ const metadata = {
           href: '#',
         },
         hasRibbon: true,
-        ribbonTitle: 'popular',
+        ribbonTitle: 'Exchange',
       },
       {
         title: 'Enterprise',
