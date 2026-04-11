@@ -20,8 +20,7 @@ const appStoreDownloadLink = 'https://github.com/';
 const googlePlayImg = '~/assets/images/google-play.png';
 const googlePlayDownloadLink = 'https://github.com';
 
-const appStoreImg1= '~/assets/images/app-store1.png';
-const appStoreDownloadLink = 'https://github.com/';
+
 
 const metadata = {
   title: 'Mobile App Homepage',
@@ -76,11 +75,11 @@ const metadata = {
         <Image src={appStoreImg} alt="App Store Image" width={50} />
       </Button>
 
-      <Button variant="link" href=" https://solana.com">
+      <Button variant="link" href={googlePlayDownloadLink}>
         <Image src={googlePlayImg} alt="Google Play Image" width={50} />
       </Button>
       <Button variant="link" href={googlePlayDownloadLink}>
-        <Image src={appStoreImg1} alt="binance Image" width={50} />
+        <Image src={googlePlayImg} alt="App Store Image" width={50} />
       </Button>
       <Button variant="link" href={googlePlayDownloadLink}>
         <Image src={googlePlayImg} alt="Google Play Image" width={50} />
