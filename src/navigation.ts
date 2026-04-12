@@ -6,12 +6,12 @@ export const headerData = {
       text: 'Staking',
       links: [
         {
-          text: 'SaaS',
+          text: 'Bitcoin Staking',
           href: getPermalink('/homes/saas'),
         },
         {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
+          text: 'Stake { ETH }',
+          href: getPermalink('/home/stakeETH'),
         },
         {
           text: 'Mobile App',
